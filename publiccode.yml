@@ -1,0 +1,101 @@
+publiccodeYmlVersion: 0.7.0
+name: AIxPA - Piattaforma di Intelligenza Artificiale per la PA
+url: https://github.com/ProvinciaAutonomaTrento/AIxPA
+landingURL: https://github.com/ProvinciaAutonomaTrento/AIxPA
+softwareVersion: 2.0.0
+releaseDate: 2025-11-18
+platforms:
+  - web
+categories:
+  - application-development
+  - data-analytics
+  - predictive-analysis
+organisation:
+  uri: https://www.provincia.tn.it/
+  name: Provincia autonoma di Trento
+fundedBy:
+  - name: Piano Nazionale Complementare al PNRR
+    uri: https://www.rgs.mef.gov.it/VERSIONE-I/attivita_istituzionali/monitoraggio/piano_nazionale_per_gli_investimenti_complementari_al_pnrr/
+usedBy:
+  - Provincia autonoma di Trento
+developmentStatus: stable
+softwareType: standalone/other
+supports:
+  - id: alias:gdpr
+  - id: alias:eidas
+  - id: alias:nis2
+  - id: alias:spid
+  - id: alias:cie
+intendedAudience:
+  countries:
+    - IT
+  scope:
+    - government
+    - local-authorities
+description:
+  it-IT:
+    shortDescription: Piattaforma tecnologica e applicativa di Intelligenza
+      Artificiale per la PA.
+    longDescription: >-
+      AIxPA é una soluzione sviluppata nell'ambito del PNRR M1C1I1.4 (Progetto
+      Bandiera PNC-A.1.3, CUP C49G22001020001) dalla Provincia Autonoma di
+      Trento, in collaborazione con Fondazione Bruno Kessler (FBK) e Trentino
+      Digitale.
+
+
+      La piattaforma consente di valorizzare i dati disponibili presso la
+      Pubblica Amministrazione, estrarre conoscenza a supporto dei processi
+      decisionali, supportare analisi e simulazioni basate su gemelli digitali,
+      migliorare l’efficienza dei servizi e ottimizzare i processi interni,
+      accelerando la trasformazione digitale. Tutto avviene nel pieno rispetto
+      dei valori etici e della normativa vigente, garantendo un uso responsabile
+      dei dati e dei diritti dei cittadini.
+
+
+      La piattaforma consente lo sviluppo e il riuso delle soluzioni di
+      Intelligenza Artificiale attraverso la gestione di tutto il ciclo di vita
+      MLOps, AIOps, e DataOps, in maniera trasparente, tracciabile, e portabile.
+
+
+      La piattaforna fornisce inoltre funzionalitá generali di Intelligenza
+      Artificiale per la Pubblica Amministrazione fra cui applicazioni di
+      dialogo e LLM (RAG), tele-rilevamento (Remote Sensing) e riconoscimento
+      vocale.
+    documentation: https://github.com/ProvinciaAutonomaTrento/AIxPA
+    features:
+      - Gestione MLOps completa (modelli, dataset, pipeline, deployment)
+      - Supporto LLM, RAG e chatbot per servizi pubblici
+      - Piattaforma Decision Making e Gemello Digitale (Digital Twin)
+      - Elaborazione dati di Telerilevamento (Remote Sensing)
+      - Architettura Cloud-Native basata su Kubernetes e Helm
+      - Multi-tenancy e sicurezza con OIDC e AAC
+    screenshots:
+      - https://github.com/tn-aixpa/aixpa-landing/blob/8029433d8eb8649c80e974aee584189093da47e3/screenshots/dashboard-prj.png
+      - https://github.com/tn-aixpa/aixpa-landing/blob/8029433d8eb8649c80e974aee584189093da47e3/screenshots/dataitems-list.png
+      - https://github.com/tn-aixpa/aixpa-landing/blob/8029433d8eb8649c80e974aee584189093da47e3/screenshots/function-python-detail.png
+      - https://github.com/tn-aixpa/aixpa-landing/blob/8029433d8eb8649c80e974aee584189093da47e3/screenshots/hera-workflow.png
+      - https://github.com/tn-aixpa/aixpa-landing/blob/8029433d8eb8649c80e974aee584189093da47e3/screenshots/http-client.png
+      - https://github.com/tn-aixpa/aixpa-landing/blob/8029433d8eb8649c80e974aee584189093da47e3/screenshots/metrics.png
+      - https://github.com/tn-aixpa/aixpa-landing/blob/8029433d8eb8649c80e974aee584189093da47e3/logo/logo.png
+    awards:
+      - Premio “PA Aumentata” a FORUM PA 2025 per l’ambito Sostenibilità
+        Ambientale
+legal:
+  license: AGPL-3.0-or-later
+maintenance:
+  type: internal
+  contacts:
+    - name: Email - Segreteria
+      email: umse.intelligenza.artificiale@provincia.tn.it
+    - name: Pec - Segreteria
+      email: umse.intelligenza.artificiale@pec.provincia.tn.it
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - it-IT
+    - en-GB
+IT:
+  countryExtensionVersion: "1.0"
+  piattaforme:
+    spid: true
+    cie: true
